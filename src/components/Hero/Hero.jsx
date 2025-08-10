@@ -5,7 +5,7 @@ export const Hero = () => {
     <div className="px-2.5 flex flex-col justify-center items-center gap-20 bg-[url('Hero.jpg')] bg-no-repeat bg-cover bg-center h-screen w-full">
       <div className="px-17 py-23.5 border-4 border-white rounded-[4px]  mx-auto">
         <img
-          src="logo.svg"
+          src="/logo.svg"
           alt=""
           className="w-46.25 h-21.5 border-b-[2px] border-[#fff]"
         />

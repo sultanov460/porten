@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
-.font-playfair {
-  font-family: "Playfair Display", serif;
+@theme {
+  --font-playfair: "Playfair Display", serif;
+  --font-ptsans: "PT Sans", serif;
+
+  --breakpoint-xs: 500px;
 }
-.font-ptsans {
-  font-family: "PT Sans", serif;
+
+body {
+  @apply bg-black;
 }

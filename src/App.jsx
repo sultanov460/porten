@@ -7,14 +7,14 @@ import { Hero } from "./components/Hero/HEro";
 
 function App() {
   return (
-    <div>
+    <>
       <HeaderTop />
       <HeaderBottom />
       <Hero />
       <Collection />
       <Collection2018 />
       <Catalog />
-    </div>
+    </>
   );
 }
 

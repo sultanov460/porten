@@ -1,8 +1,6 @@
-import React from "react";
-
 export const Collection = () => {
   return (
-    <div className="px-2.5 flex flex-col justify-center items-center gap-13 bg-[url('NewCollection.jpg')] bg-no-repeat bg-cover bg-center h-screen w-full text-white">
+    <div className="px-2.5 flex flex-col justify-center items-center gap-13 bg-[url('/NewCollection.jpg')] bg-no-repeat bg-cover bg-center min-h-160 w-full text-white">
       <h1 className="font-bold text-4xl font-playfair text-center">
         НОВАЯ КОЛЛЕКЦИЯ
       </h1>
