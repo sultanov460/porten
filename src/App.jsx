@@ -6,6 +6,7 @@ import { Footer } from "./components/Footer/Footer";
 import { HeaderBottom } from "./components/HeaderBottom/HeaderBottom";
 import { HeaderTop } from "./components/HeaderTop/HeaderTop";
 import { Hero } from "./components/Hero/HEro";
+import { Copyright } from "./components/Copyright/Copyright.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Catalog />
       <Brands />
       <Footer />
+      <Copyright />
     </>
   );
 }
