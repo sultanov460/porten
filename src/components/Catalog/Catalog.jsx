@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "../Container/Container";
+import { SectionTitle } from "../SectionTitle/SectionTitle";
 
 export const Catalog = () => {
   const data = [
@@ -56,10 +57,8 @@ export const Catalog = () => {
     <div className="py-17 md:pt-30 md:pb-37.5 text-white">
       <Container>
         <div className="flex flex-col gap-10 justify-center items-center">
-          <h1 className="font-bold text-4xl font-playfair text-center">
-            НОВЫЕ ПОСТУПЛЕНИЯ
-          </h1>
-          <div className="w-[120px] border border-white"></div>
+          <SectionTitle title={"Новые поступления"} underline />
+
           <div className="flex flex-wrap gap-x-[23px] gap-y-10 mt-[41px] justify-center">
             {data.map((item) => (
               <div
